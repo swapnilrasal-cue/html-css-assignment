@@ -1,8 +1,9 @@
-*
-{
+/* * {
     box-sizing: border-box;
 }
-.contents
+
+
+/* .contents
 {
     z-index: -1;
     max-width: 1200px;
@@ -11,27 +12,28 @@
     background: #EBECF2 0% 0% no-repeat padding-box;
     border: 1px solid black;
     overflow: auto;
+    clear: both;
 }
 
 header
 {
-    height: 60px;
+    
+    height: auto;
     background: #384B59 0% 0% no-repeat padding-box;
     opacity: 1;
     position: fixed;
     z-index: 999;
+
 }
-.divnew
+header .divnew
 { 
     width: 1200px;
     height: 41px;
-    position: relative;
     top: 9px;    
     background-color: orange;
 }
 header .divnew .headimg1
 {
-    position: absolute;
     height: inherit;
     width: 171px;
     left: 66px;
@@ -42,7 +44,6 @@ header .divnew .headimg1
 
 header .divnew .headimg2
 {   
-    position: absolute;
     height: 15px;
     width: 30px;
     left: 255px;
@@ -54,10 +55,9 @@ header .divnew .headimg2
 
 header .divnew .toolbox
 {   
-    position: absolute;
     height: 40.41px;
     width: 143px;
-    /* background: #384B59 0% 0% no-repeat padding-box;     */
+    background: #384B59 0% 0% no-repeat padding-box;     
     opacity: 1;
     right: 24px;
     top: 0.59px;
@@ -67,7 +67,6 @@ header .divnew .toolbox
 
 header .divnew .toolbox .messagebox
 {   
-    position: absolute;
     height: 17px;
     width: 20px;
     background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box;
@@ -78,7 +77,6 @@ header .divnew .toolbox .messagebox
 
 header .divnew .toolbox .message
 {   
-    position: absolute;
     height: 19px;
     width: 19px;
     background: #FE5621 0% 0% no-repeat padding-box;
@@ -90,7 +88,6 @@ header .divnew .toolbox .message
 
 header .divnew .toolbox .para
 {   
-    position: absolute;
     height: 17px;
     width: 8px;
     color: #FFFFFF;
@@ -107,7 +104,6 @@ header .divnew .toolbox .para
 
 header .divnew .toolbox .settingicon
 {   
-    position: absolute;
     height: 21px;
     width: 20px;
     background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/setting.png') 0% 0% no-repeat padding-box;
@@ -118,7 +114,6 @@ header .divnew .toolbox .settingicon
 }
 header .divnew .toolbox .searchbox
 {   
-    position: absolute;
     height: 40px;
     width: 40px;
     background: #384B59 0% 0% no-repeat padding-box;    
@@ -129,7 +124,6 @@ header .divnew .toolbox .searchbox
 
 header .divnew .searchbox .searchicon
 {   
-    position: absolute;
     height: 18px;
     width: 17px;
     background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/Ellipse 2.png') 0% 0% no-repeat padding-box;
@@ -142,7 +136,6 @@ header .divnew .searchbox .searchicon
 
 section .dashboard
 {
-position: relative;
 width: 1152px;
 
 top: 103px;
@@ -167,4 +160,248 @@ border: 1px solid black;
 
 .clear{
     clear:both;
+} */
+
+* {
+    box-sizing: content-box;
+}
+
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font: Medium 18px/22px Quicksand;
+    letter-spacing: 0;
+    color: black;
+    opacity: 1;
+}
+
+.lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    font: Regular 11px/13px Lato;
+    letter-spacing: 0;
+    color: #000000;
+    /* color: #9CAAB4; */
+    opacity: 1;
+}
+
+h2 {}
+
+.contents {
+    z-index: -1;
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.header {
+    width: 1200px;
+    background: #384B59 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 999;
+}
+
+header .divnew {
+    width: 1200px;
+    top: 10px;
+    background: #384B59 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+header .divnew .headimg1 {
+    float: left;
+    width: 171px;
+    height: 41px;
+    background-color: white;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/logo.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/logo.png') 0% 0% no-repeat padding-box; */
+    left: 24px;
+    opacity: 1;
+    margin-left: 24px;
+}
+
+header .divnew .headimg2 {
+    float: left;
+    height: 15px;
+    width: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
+    background-color: blanchedalmond;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/img1.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/img1.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+header .divnew .toolbox {
+    float: right;
+    height: 40.41px;
+    width: 143px;
+    background: #384B59 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 24px;
+}
+
+header .divnew .toolbox .searchbox {
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: #E9E9E91A 0% 0% no-repeat padding-box;
+    /* background: #384B59 0% 0% no-repeat padding-box;     */
+    opacity: 1;
+    /* right: 0px;
+    top: 0.41px; */
+}
+
+header .divnew .searchbox .searchicon {
+    height: 18px;
+    width: 17px;
+    background-color: chocolate;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/Ellipse\ 2.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/Ellipse 2.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    margin: 11px 12px 11px 11px;
+}
+
+header .divnew .toolbox .settingicon {
+    float: right;
+    height: 21px;
+    width: 20px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/setting.png') 0% 0% no-repeat padding-box;
+    /*  background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/setting.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    margin-right: 21px;
+    margin-top: 10.41px;
+}
+
+header .divnew .toolbox .message-icon {
+    height: 17px;
+    width: 20px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/message-icon.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+    margin: 12.41px 10px 11px 10px;
+    z-index: 4;
+    opacity: 0.5;
+}
+
+header .divnew .toolbox .messagebox {
+    height: 29.41px;
+    width: 30px;
+    margin: 0px 113px 11px 0px;
+    z-index: 4;
+    opacity: 0.5;
+    background-color: #FE5621;
+}
+
+header .divnew .toolbox .message {
+    height: 19px;
+    width: 19px;
+    background: #FE5621 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 0.41px 113px 21px 0px;
+    z-index: 999;
+}
+
+header .divnew .toolbox .para {
+    position: absolute;
+    height: 17px;
+    width: 8px;
+    margin: 0px 5.45px 12.41px 16.55px;
+}
+
+.clear {
+    clear: both;
+}
+
+.section-root {
+    background: #EBECF2 0% 0% no-repeat padding-box;
+    margin: 60px 24px 43px 24px;
+}
+
+.dashboard-session {
+    margin:
+}
+
+.dashboard-text {
+    width: 300px;
+    height: 23px;
+}
+
+.dashboard-image {
+    width: 0px;
+    height: 17px;
+}
+
+section .dashboard {
+    float: left;
+    display: flex;
+    width: 1152px;
+    background: #EBECF2 0% 0% no-repeat padding-box;
+    margin: 37px 24px 55px 24px;
+}
+
+section .dashboard .rect {
+    width: 270px;
+    opacity: 1;
+    margin-right: 24px;
+    background: #FEC006 0% 0% no-repeat padding-box;
+}
+
+section .dashboard .rectlast {
+    margin-right: 0px;
+}
+
+section .dashboard .rect .square {
+    float: right;
+    width: 90px;
+    opacity: 0.1;
+    margin-left: 180px;
+    background: #000000 0% 0% no-repeat padding-box;
+}
+
+section .dashboard .rect .square .budget-img {
+    height: 42px;
+    width: 24px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/budget-img.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+    margin: 34px 33px 34px 33px;
+    opacity: 1;
+}
+
+section .dashboard .rect .square .milestone-img {
+    height: 47px;
+    width: 44px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/milestone-img.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+    margin: 32px 22px 31px 23px;
+}
+
+section .dashboard .rect .square .task-img {
+    height: 43px;
+    width: 34px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/Form1.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+    margin: 34px 28px 33px 28px;
+}
+
+section .dashboard .rect .square .documents-img {
+    height: 47px;
+    width: 37px;
+    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/document-img.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+    margin: 32px 26px 31px 26px;
+}
+
+.footer {
+    background: #384B59 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 1156px;
+}
+
+footer .footer-margin {
+    margin-bottom: 0px;
 }
