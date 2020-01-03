@@ -1,242 +1,88 @@
-/* * {
+* 
+{
     box-sizing: border-box;
 }
 
-
-/* .contents
-{
-    z-index: -1;
-    max-width: 1200px;
-    height: auto;
-    margin: auto;
-    background: #EBECF2 0% 0% no-repeat padding-box;
-    border: 1px solid black;
-    overflow: auto;
-    clear: both;
-}
-
-header
-{
-    
-    height: auto;
-    background: #384B59 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: fixed;
-    z-index: 999;
-
-}
-header .divnew
-{ 
-    width: 1200px;
-    height: 41px;
-    top: 9px;    
-    background-color: orange;
-}
-header .divnew .headimg1
-{
-    height: inherit;
-    width: 171px;
-    left: 66px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/logo.png') 0% 0% no-repeat padding-box;
-    left: 24px;
-    opacity: 1;
-}
-
-header .divnew .headimg2
-{   
-    height: 15px;
-    width: 30px;
-    left: 255px;
-    top: 15px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/img1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-
-}
-
-header .divnew .toolbox
-{   
-    height: 40.41px;
-    width: 143px;
-    background: #384B59 0% 0% no-repeat padding-box;     
-    opacity: 1;
-    right: 24px;
-    top: 0.59px;
-    border: 1px solid red;
-}
-
-
-header .divnew .toolbox .messagebox
-{   
-    height: 17px;
-    width: 20px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    left: 0;
-    top: 12.41px;
-}
-
-header .divnew .toolbox .message
-{   
-    height: 19px;
-    width: 19px;
-    background: #FE5621 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border-radius: 50%;
-    left: 11px;
-    top: 0.41px;
-}
-
-header .divnew .toolbox .para
-{   
-    height: 17px;
-    width: 8px;
-    color: #FFFFFF;
-    opacity: 1;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    
-    left: 16px;
-    top: 0px;
-   
-
-}
-
-
-header .divnew .toolbox .settingicon
-{   
-    height: 21px;
-    width: 20px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/setting.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    right: 61px;
-    top: 10.41px;
-
-}
-header .divnew .toolbox .searchbox
-{   
-    height: 40px;
-    width: 40px;
-    background: #384B59 0% 0% no-repeat padding-box;    
-    opacity: 1;
-    right: 0px;
-    top: 0.41px;
-}
-
-header .divnew .searchbox .searchicon
-{   
-    height: 18px;
-    width: 17px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/Ellipse 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    right: 12px;
-    top: 12px;
-
-}
-
-
-section .dashboard
-{
-width: 1152px;
-
-top: 103px;
-left: 24px;
-opacity: 1;
-background-color: yellow;
-}
-
-section .dashboard .rect
-{
-float: left;
-width: 22%;
-
-top: 162px;
-opacity: 1;
-margin-right: 24px;
-margin-block-end: 0px;
-background-color: cyan;
-border: 1px solid black;
-}
-
-
-.clear{
-    clear:both;
-} */
-
-* {
-    box-sizing: content-box;
-}
-
-.font-quicksand {
+.font-quicksand-medium-18px{
     font-family: 'Quicksand', sans-serif;
     text-align: left;
-    font: Medium 18px/22px Quicksand;
-    letter-spacing: 0;
+    font-size: 18px;
     color: black;
-    opacity: 1;
 }
 
-.lato-regular {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-align: right;
-    font: Regular 11px/13px Lato;
-    letter-spacing: 0;
-    color: #000000;
-    /* color: #9CAAB4; */
-    opacity: 1;
+
+.font-quicksand-medium-16px{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-left: 15px;
 }
 
-h2 {}
+
+.font-quicksand-medium-30px{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 34px 183px 7px 15px;
+}
+
+.font-quicksand-bold-34px{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    color: #E1E2E9;
+    font-weight: 700;
+}
+
+
 
 .contents {
-    z-index: -1;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
-    border: 1px solid black;
+    padding-top:60px;
+    background-color: #EBECF2;
 }
+
 
 .header {
-    width: 1200px;
     background: #384B59 0% 0% no-repeat padding-box;
-    opacity: 1;
+    /* opacity: 1; */
     position: fixed;
     z-index: 999;
+    top: 0px;
+    
 }
 
-header .divnew {
+.divnew {
     width: 1200px;
-    top: 10px;
     background: #384B59 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-top: 9px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-header .divnew .headimg1 {
+.headimg1 {
     float: left;
     width: 171px;
     height: 41px;
     background-color: white;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/logo.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/logo.png') 0% 0% no-repeat padding-box; */
-    left: 24px;
+    background: transparent  0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 24px;
 }
 
-header .divnew .headimg2 {
+.headimg2 {
     float: left;
     height: 15px;
     width: 30px;
     margin-left: 60px;
     margin-top: 15px;
     background-color: blanchedalmond;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/img1.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/img1.png') 0% 0% no-repeat padding-box; */
+    background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-header .divnew .toolbox {
+.toolbox {
     float: right;
     height: 40.41px;
     width: 143px;
@@ -245,163 +91,364 @@ header .divnew .toolbox {
     margin-right: 24px;
 }
 
-header .divnew .toolbox .searchbox {
+.hover-box {
+    
     float: right;
-    height: 40px;
-    width: 40px;
-    background: #E9E9E91A 0% 0% no-repeat padding-box;
-    /* background: #384B59 0% 0% no-repeat padding-box;     */
-    opacity: 1;
-    /* right: 0px;
-    top: 0.41px; */
+    margin-left: 10px;
+    opacity: 1;   
 }
 
-header .divnew .searchbox .searchicon {
-    height: 18px;
-    width: 17px;
-    background-color: chocolate;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/Ellipse\ 2.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/Ellipse 2.png') 0% 0% no-repeat padding-box; */
+.last-hover-box
+{
+ margin-left: 0px;
+}
+
+.hover-box:link
+{
+
+}
+.hover-box:hover{
+
+    background: #E9E9E91A 0% 0% no-repeat padding-box;
+    opacity: 0.6;
+}
+
+
+.searchicon {
+    float: right;
+    background: transparent  0% 0% no-repeat padding-box;
     opacity: 1;
     margin: 11px 12px 11px 11px;
 }
 
-header .divnew .toolbox .settingicon {
+.settingicon {
     float: right;
-    height: 21px;
-    width: 20px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/setting.png') 0% 0% no-repeat padding-box;
-    /*  background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/setting.png') 0% 0% no-repeat padding-box; */
+    background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-right: 21px;
-    margin-top: 10.41px;
+    margin: 10.41px 10px 9px 10px;
 }
 
-header .divnew .toolbox .message-icon {
-    height: 17px;
-    width: 20px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/message-icon.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
-    margin: 12.41px 10px 11px 10px;
-    z-index: 4;
-    opacity: 0.5;
+
+ .message-box 
+ {  
+     margin-right: 10.61px;
+     margin-bottom: 10px;
+     z-index: 4;
+}  
+
+ .message-icon 
+{
+    float: right;
+    background: transparent 0% 0% no-repeat padding-box;   
+    margin-top: 13.41px;
+    margin-bottom: 10px;
+    margin-right: 5.4px;
+    margin-left: 4px;
 }
 
-header .divnew .toolbox .messagebox {
-    height: 29.41px;
-    width: 30px;
-    margin: 0px 113px 11px 0px;
-    z-index: 4;
-    opacity: 0.5;
-    background-color: #FE5621;
+.parent
+{
+    position: relative;
 }
 
-header .divnew .toolbox .message {
+ .message {
+    position: absolute;
     height: 19px;
     width: 19px;
     background: #FE5621 0% 0% no-repeat padding-box;
-    opacity: 1;
     border-radius: 50%;
-    margin: 0.41px 113px 21px 0px;
+    text-align: center;
+    left: 17px;
+    top: 2px;    
     z-index: 999;
 }
-
-header .divnew .toolbox .para {
-    position: absolute;
-    height: 17px;
-    width: 8px;
-    margin: 0px 5.45px 12.41px 16.55px;
-}
-
 .clear {
     clear: both;
 }
 
+.clear-left {
+    clear: both;
+}
 .section-root {
     background: #EBECF2 0% 0% no-repeat padding-box;
-    margin: 60px 24px 43px 24px;
+    background-color: #FE5621;
 }
+
 
 .dashboard-session {
-    margin:
-}
-
-.dashboard-text {
-    width: 300px;
-    height: 23px;
-}
-
-.dashboard-image {
-    width: 0px;
-    height: 17px;
-}
-
-section .dashboard {
-    float: left;
-    display: flex;
-    width: 1152px;
-    background: #EBECF2 0% 0% no-repeat padding-box;
-    margin: 37px 24px 55px 24px;
-}
-
-section .dashboard .rect {
-    width: 270px;
-    opacity: 1;
+    margin-left: 24px;
     margin-right: 24px;
-    background: #FEC006 0% 0% no-repeat padding-box;
+    margin-top: 43px;
+    background-color: #EBECF2;
+
 }
 
-section .dashboard .rectlast {
+.heading-text {
+    float: left;
+    
+}
+
+.three-dots    
+{
+    float: right;
+    margin: 5px 12px 37px 832px;
+}
+
+.board {
+
+    background-color: #EBECF2;
+} 
+.board2{
+    margin-top: 3px;
+} 
+
+.rect 
+{    
+    float: left;
+    width: 270px;
+    margin-right: 24px;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.rectlast {
     margin-right: 0px;
 }
 
-section .dashboard .rect .square {
+.style1 
+{    
+    background: #FEC006 0% 0% no-repeat padding-box;
+}
+
+.style2 
+{    
+    background: #E81D62 0% 0% no-repeat padding-box;
+}
+.style3 
+{    
+    background: #8AC249 0% 0% no-repeat padding-box;
+}
+.style4 
+{    
+    background: #2095F2 0% 0% no-repeat padding-box;
+}
+
+.square {
     float: right;
-    width: 90px;
-    opacity: 0.1;
-    margin-left: 180px;
-    background: #000000 0% 0% no-repeat padding-box;
+    background-color: rgba(0,0,0,0.1);
 }
-
-section .dashboard .rect .square .budget-img {
-    height: 42px;
-    width: 24px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/budget-img.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+.budget-img {
+   
     margin: 34px 33px 34px 33px;
-    opacity: 1;
+      
 }
-
-section .dashboard .rect .square .milestone-img {
-    height: 47px;
-    width: 44px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/milestone-img.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+.milestone-img {
     margin: 32px 22px 31px 23px;
 }
 
-section .dashboard .rect .square .task-img {
-    height: 43px;
-    width: 34px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/Form1.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+.task-img {
+
     margin: 34px 28px 33px 28px;
 }
-
-section .dashboard .rect .square .documents-img {
-    height: 47px;
-    width: 37px;
-    background: transparent url('C:/Users/User/Desktop/html-css-assignment/images/document-img.png') 0% 0% no-repeat padding-box;
-    /* background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box; */
+ .documents-img {
     margin: 32px 26px 31px 26px;
 }
 
-.footer {
-    background: #384B59 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-top: 1156px;
+.milestones-section{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 55px;
+    background: #EBECF2 0% 0% no-repeat padding-box;   
 }
 
-footer .footer-margin {
-    margin-bottom: 0px;
+.arrow-images{
+    float: right;
+    padding-left: 27px;
+    margin-bottom: 25px;
+}
+
+.big-circle{
+
+    height: 111px;
+    width: 111px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 10px solid #8AC249;
+    margin: 28px 79px 27px 80px;
+
+}
+
+.outer-border1 
+{    
+    border: 10px solid #FEC006;
+}
+.outer-border2
+{    
+    border: 10px solid #F1F1F1;
+}
+.small-circle{
+
+    height: 91px;
+    width: 91px;
+    border-radius: 50%;
+    background: #F6EFD2 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+}
+
+
+
+.circle-text-big{
+color: #363F45;
+margin: 14px 22px 10px 23px;
+}
+
+
+.circle-text-small{
+    color: #363F45;
+    margin: 0px 39px 19px 37px;
+}
+
+.text-align1{
+    color: #363F45;
+    margin: auto;
+    line-height: 50px;
+    padding-left: 88px;
+    line-height: 50px;
+    padding-left: 88px;
+}
+
+
+.text-align2{
+    color: #E1E2E9;
+    line-height: 50px;
+    padding: 9px 21px 7px 50px;
+}
+
+.progress-bar
+{
+    margin-top: 31px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.outer-bar
+{
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    height: 9px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.inner-bar
+{
+    height: 5px;
+    width: 299px;
+    background: #D4C69B 0% 0% no-repeat padding-box;
+    border-radius: 3px;    
+}
+.last-section{
+    background-color: #EBECF2;
+    margin-top: 69px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 110px;
+}
+
+.background{
+background-color: #EBECF2;
+width: 1200px;
+
+}   
+
+.text-color-black{
+   color: #363F45;
+   font-weight: 800;
+   margin: 18px 386.5px 38px 29.5px;
+}
+
+.recent-tasks{
+    float: left;
+    border-bottom: 3px solid #E6E7ED;
+    background-color: #FFFFFF;
+    margin-right: 24px;
+}
+
+.recent-task-clear {
+    margin-right: 0px !important;
+}
+
+
+.three-dots2    
+{
+    float: right;
+    margin: 19px 30px 30px 0px;
+   
+}
+
+.work-status{
+    float: right;
+}
+
+.checkbox
+{
+    height: 17px;
+    width: 17px;
+    background-color: #FFFFFF;
+    border: 1px solid #CED4D9 ;
+margin-left: 25px;
+}
+
+footer
+    {
+    margin-top: 111px;
+    }
+
+
+.lato-regular{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    float: right;
+    font-size: 11px;
+    color: #9CAAB4;
+    background-color:  #384B59;
+    padding: 15px 24px 16px 868px;
+}
+
+.lato-regular-14px{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    float: left;
+    font-size: 14px;
+    color: #919599;
+     padding: 10px;
+    }
+
+.lato-regular-13px{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #919599;
+    margin-bottom: 20px;
+}
+
+.div-part2{
+    float: right;
+}
+
+.task-row
+{
+    padding: 25px 30px;
+    border-top: 1px solid #E6E7ED;
+}
+
+.selected{
+    background-color: #E1F5E3;
+}
+
+.box{
+    height: 100px;
+}
+
+.work-status
+{
+
 }
