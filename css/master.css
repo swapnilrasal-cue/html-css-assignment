@@ -12,16 +12,35 @@
 .font-quicksand-medium-16px{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #363F45;
     margin-top: 11px;
-    margin-left: 15px;
+
 }
 .font-quicksand-medium-30px{
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
-    margin: 34px 183px 7px 15px;
+
 }
+
+.milestones-text
+{
+    display: inline-block;
+    width: calc(100% - 88px);
+    margin-left: 42px;
+}
+
+
+.text-align2{
+    color: #E1E2E9;
+    line-height: 46px;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    width: 42px;
+
+}
+
 .font-quicksand-bold-34px{
     font-family: 'Quicksand', sans-serif;
     font-size: 34px;
@@ -36,8 +55,9 @@
     background-color: #EBECF2;
     width: 1200px;
     margin: auto;
-    margin-top: 60px;
-    padding-top: 40px;
+    
+    padding-top: 100px;
+    padding-bottom: 110px;
     }  
 .header {
     width: 100%;
@@ -168,7 +188,19 @@
     margin-right: 24px;
     background-color: #FFFFFF;
     margin-bottom: 0px;
+    text-align: center;
 }
+
+.dashboard-rect 
+{    
+    float: left;
+    width: 270px;
+    margin-right: 24px;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
 
 .rectlast {
     margin-right: 0px;
@@ -177,40 +209,39 @@
 .style1 
 {    
     background-color: #FEC006;
+    padding-left: 10px;
+    text-align: left;
 }
 
 .style2 
 {    
     background-color: #E81D62;
+    padding-left: 10px;
+    text-align: left;
 }
 .style3 
 {    
     background-color: #8AC249;
+    padding-left: 10px;
+    text-align: left;
 }
 .style4 
 {    
     background-color: #2095F2;
+    padding-left: 10px;
+    text-align: left;
 }
 
 .square {
     float: right;
     background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90px;
+    line-height: 110px;
 }
-.budget-img {
-   
-    margin: 34px 33px 34px 33px;
+.align-img {
+   vertical-align: middle;
       
-}
-.milestone-img {
-    margin: 32px 22px 31px 23px;
-}
-
-.task-img {
-
-    margin: 34px 28px 33px 28px;
-}
- .documents-img {
-    margin: 32px 26px 31px 26px;
 }
 
 .milestones-section{
@@ -226,6 +257,17 @@
     margin-bottom: 25px;
 }
 
+.bigger-rect
+{
+    width:270px;
+    padding-bottom:28px;
+    padding-top:28px;
+    background-color: #FFFFFF;
+}
+.smaller-rect{
+    background-color: #FFFFFF;
+    margin-top: 1px;
+}
 .big-circle{
 
     height: 111px;
@@ -233,7 +275,7 @@
     border-radius: 50%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 10px solid #8AC249;
-    margin: 28px 79px 27px 80px;
+    margin:0 auto;
 
 }
 
@@ -252,36 +294,33 @@
     border-radius: 50%;
     background: #F6EFD2 0% 0% no-repeat padding-box;
     border: 2px solid #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
 
 .circle-text-big{
 color: #363F45;
-margin: 14px 22px 10px 23px;
+padding-top: 14px;
 }
 
 
 .circle-text-small{
     color: #363F45;
-    margin: 0px 39px 19px 37px;
+    margin-top: 10px;
 }
 
-.text-align1{
+/* .text-align1{
     color: #363F45;
     margin: auto;
     line-height: 50px;
     padding-left: 88px;
     line-height: 50px;
     padding-left: 88px;
-}
+} */
 
 
-.text-align2{
-    color: #E1E2E9;
-    line-height: 50px;
-    padding: 9px 21px 7px 50px;
-}
 
 .progress-bar
 {
@@ -309,7 +348,6 @@ margin: 14px 22px 10px 23px;
     margin-top: 69px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 110px;
 }
  
 
