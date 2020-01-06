@@ -9,7 +9,6 @@
     font-size: 18px;
     color: black;
 }
-
 .font-quicksand-medium-16px{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -17,28 +16,23 @@
     margin-top: 11px;
     margin-left: 15px;
 }
-
 .font-quicksand-medium-30px{
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     margin: 34px 183px 7px 15px;
 }
-
 .font-quicksand-bold-34px{
     font-family: 'Quicksand', sans-serif;
     font-size: 34px;
     color: #E1E2E9;
     font-weight: 700;
 }
-
 .contents {
     margin: 0 auto;
     background-color:white;
 }
-
-
-.background{
+.main-container{
     background-color: #EBECF2;
     width: 1200px;
     margin: auto;
@@ -61,14 +55,14 @@
     padding-bottom: 10px;
 }
 
-.headimg1 {
+.head-img1 {
     float: left;
     width: 171px;
     height: 41px;
     margin-left: 24px;
 }
 
-.headimg2 {
+.head-img2 {
     float: left;
     height: 15px;
     width: 30px;
@@ -393,7 +387,7 @@ footer{
     font-size: 11px;
     color: #9CAAB4;
     background-color:  #384B59;
-    padding: 15px 24px 16px 875px;
+    padding: 17px 26px 16px 862px;
 }
 
 .lato-regular-14px{
