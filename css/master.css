@@ -138,7 +138,8 @@ font-weight: 500;
 
 .three-dots {
     float: right;
-    margin: 5px 12px 37px 832px;
+    padding: 5px 12px 37px;
+ 
 }
 
 
