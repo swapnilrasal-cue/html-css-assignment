@@ -8,9 +8,10 @@
 .contents {
     margin: 0 auto;
     background-color:white;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    color: #363F45;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #919599;
 }
 
 .clear {
@@ -116,10 +117,23 @@
     float: left;   
 }
 
+
+.font-quicksand-medium-16px{
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
+color: #363F45;
+font-weight: 500;
+}
+
+.bold{
+    font-weight: 700;
+}
+
 .font-quicksand-medium-18px{
+    font-family: 'Quicksand', sans-serif;
     text-align: left;
     font-size: 18px;
-    color: black;
+    color: #363F45;
 }
 
 .three-dots {
@@ -187,12 +201,15 @@
  }
 
  .dashboard-small-text-align{
+    color: #FFFFFF;
     margin-top: 11px;
     }
     
  .font-quicksand-medium-30px{
+    font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
+
 } 
 
 
@@ -299,6 +316,13 @@
     border: 10px solid #F1F1F1;
 }
 
+.lato-regular-16px{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #363F45;
+    }
+
 /* -------------------------------------------Progress-Bar----------------------------------- */
 
 .progress-bar
@@ -333,6 +357,7 @@
 
 .recent-tasks{
     float: left;
+    width: 564px;
     border-bottom: 3px solid #E6E7ED;
     background-color: #FFFFFF;
     margin-right: 24px;
@@ -340,21 +365,17 @@
 
 .task-row
 {
-    padding: 9px 20px;
+    padding: 11px 20px 10px 20px;
     border-top: 1px solid #E6E7ED;
 }
 .three-dots2    
 {
     float: right;
-    margin: 19px 30px 30px 0px;
+    padding: 19px 30px;
    
 }
 
-.lato-regular-14px{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #919599;
+.align-task-row{
      padding: 10px;
      vertical-align: middle;
      width: 300px;
@@ -384,14 +405,22 @@
     margin-left: 20px;
 
 }
+.checked{
+    background-color:  #E1F5E3;
+    border: 1px solid transparent ;
+}
+
+
  .recent-task-clear {
     margin-right: 0px !important;
 }
 
 .text-color-black{
     color: #363F45;
-    font-weight: 800;
-    margin: 17px 387.5px 38px 29.5px;
+    font-weight: 700;
+    line-height: 55px;
+    vertical-align: middle;
+    padding-left: 30px;
  }
 
  .font-quicksand-bold-34px{
@@ -418,12 +447,21 @@ li{
 
 .task-row-2
 {
-    padding:42.5px 32px 44.5px 29px;
-    border-top: 1px solid #E6E7ED;
+    padding:45px 30px 44px 30px;
+}
+
+.first-row{
+border-top: 1px solid #E6E7ED;
+}
+
+.last-row{
+
+    padding-bottom: 56px;
 }
 
 .selected{
     background-color: #E1F5E3;
+    color: #4BAE4F;
 }
 
 .outer-bar2 {
@@ -481,7 +519,7 @@ li{
 
 .lato-bold-16px {
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     float: left;
     font-size: 16px;
     color: #363F45;
