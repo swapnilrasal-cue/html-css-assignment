@@ -1,170 +1,556 @@
-*
+/* ---------------universal------------------------  */
+*  
 {
     box-sizing: border-box;
-}
-.contents
-{
-    z-index: -1;
-    max-width: 1200px;
-    height: auto;
-    margin: auto;
-    background: #EBECF2 0% 0% no-repeat padding-box;
-    border: 1px solid black;
-    overflow: auto;
+ 
 }
 
-header
-{
-    height: 60px;
-    background: #384B59 0% 0% no-repeat padding-box;
-    opacity: 1;
+.contents {
+    margin: 0 auto;
+    background-color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #919599;
+}
+
+.clear {
+    clear: both;
+}
+
+/* --------------- header-section ------------------------  */
+
+.header {
+    width: 100%;
+    background-color: #384B59;
     position: fixed;
+    top: 0px;    
     z-index: 999;
 }
-.divnew
-{ 
+
+.divnew {
     width: 1200px;
-    height: 41px;
-    position: relative;
-    top: 9px;    
-    background-color: orange;
-}
-header .divnew .headimg1
-{
-    position: absolute;
-    height: inherit;
-    width: 171px;
-    left: 66px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/logo.png') 0% 0% no-repeat padding-box;
-    left: 24px;
-    opacity: 1;
+    background-color: #384B59;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-header .divnew .headimg2
-{   
-    position: absolute;
+.head-img1 {
+    float: left;
+    width: 171px;
+    height: 41px;
+    margin-left: 24px;
+}
+
+.head-img2 {
+    float: left;
     height: 15px;
     width: 30px;
-    left: 255px;
-    top: 15px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/img1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-
+    margin-left: 60px;
+    margin-top: 15px;
 }
 
-header .divnew .toolbox
-{   
-    position: absolute;
+.toolbox {
+    float: right;
     height: 40.41px;
-    width: 143px;
-    /* background: #384B59 0% 0% no-repeat padding-box;     */
-    opacity: 1;
-    right: 24px;
-    top: 0.59px;
-    border: 1px solid red;
+    max-width: 153px;
+    background-color: #384B59;
+    margin-right: 24px;
+}
+
+.hover-box {
+    float: right;
+    margin-left: 10px;   
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.hover-box:hover{
+    background-color: #E9E9E91A;
 }
 
 
-header .divnew .toolbox .messagebox
-{   
-    position: absolute;
-    height: 17px;
-    width: 20px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/message-icon.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    left: 0;
-    top: 12.41px;
+.align-header-element{
+    vertical-align: middle;
 }
 
-header .divnew .toolbox .message
-{   
+.parent
+{
+    position: relative;
+}
+
+ .message {
     position: absolute;
     height: 19px;
     width: 19px;
-    background: #FE5621 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background-color: #FE5621;
     border-radius: 50%;
-    left: 11px;
-    top: 0.41px;
+    text-align: center;
+    right: 0px;
+    top: 0px;  
+    color: #FFFFFF;
+    line-height: 19px;  
+ 
+}
+/* ----------------------------- Main- Container ------------------------------ */
+
+.main-container{
+    background-color: #EBECF2;
+    width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}  
+
+/* ----------------------------- Dashboard - Section ------------------------------ */
+
+
+.dashboard-section {
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #EBECF2;
 }
 
-header .divnew .toolbox .para
-{   
-    position: absolute;
-    height: 17px;
-    width: 8px;
+.heading-text {
+    float: left;   
+}
+
+
+.font-quicksand-medium-16px{
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
+color: #363F45;
+font-weight: 500;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.font-quicksand-medium-18px{
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #363F45;
+}
+
+.three-dots {
+    float: right;
+    padding: 5px 12px 37px;
+ 
+}
+
+
+.board {
+    background-color: #EBECF2;
+} 
+
+.dashboard-rect 
+{    
+    float: left;
+    width: 270px;
+    margin-right: 24px;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+.style1 
+{    
+    background-color: #FEC006;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.style2 
+{    
+    background-color: #E81D62;
+    padding-left: 15px;
+    text-align: left;
+}
+.style3 
+{    
+    background-color: #8AC249;
+    padding-left: 15px;
+    text-align: left;
+}
+.style4 
+{    
+    background-color: #2095F2;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.rectlast{
+    margin-right: 0px;
+}
+
+.square {
+    float: right;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90px;
+    line-height: 110px;
+}
+
+.align-img {
+    vertical-align: middle;
+       
+ }
+
+ .dashboard-small-text-align{
     color: #FFFFFF;
-    opacity: 1;
+    margin-top: 11px;
+    }
+    
+ .font-quicksand-medium-30px{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+
+} 
+
+
+.dashboard-big-text-align
+{
+    margin-top: 34px;
+}
+
+/* ---------------------------------Milestones-Section------------------------- */
+
+.milestones-section{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 55px;
+    background-color: #EBECF2;   
+}
+
+.arrow-images{
+    float: right;
+    padding-left: 27px;
+    margin-bottom: 25px;
+}
+
+.rect 
+{    
+    float: left;
+    width: 270px;
+    margin-right: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #EBECF2;
+}
+
+.rect-last{
+    margin-right: 0px;
+}
+
+.bigger-rect
+{
+    width:270px;
+    padding-bottom:28px;
+    padding-top:28px;
+    background-color: #FFFFFF;
+}
+.smaller-rect{
+    background-color: #FFFFFF;
+    margin-top: 1px;
+}
+.big-circle{
+
+    height: 111px;
+    width: 111px;
+    border-radius: 50%;
+    border: 10px solid #8AC249;
+    margin:0 auto;
+
+}
+
+.small-circle{
+
+    height: 91px;
+    width: 91px;
+    border-radius: 50%;
+    background-color: #F6EFD2;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle-text-big{
+    color: #363F45;
+    padding-top: 14px;
+    }
+    
+    
+.circle-text-small{
+        color: #363F45;
+        margin-top: 10px;
+    }
+
+.milestones-text-align
+{
+    display: inline-block;
+    width: calc(100% - 88px);
+    margin-left: 40px;
+}
+
+.text-align2{
+    color: #E1E2E9;
+    line-height: 46px;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    width: 42px;
+
+}
+.outer-border1 
+{    
+    border: 10px solid #FEC006;
+}
+.outer-border2
+{    
+    border: 10px solid #F1F1F1;
+}
+
+.lato-regular-16px{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    
-    left: 16px;
-    top: 0px;
+    font-size: 16px;
+    color: #363F45;
+    }
+
+/* -------------------------------------------Progress-Bar----------------------------------- */
+
+.progress-bar
+{
+    margin-top: 34px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.outer-bar
+{
+    background-color: #F5F5F5;
+    height: 9px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.inner-bar
+{
+    height: 5px;
+    width: 299px;
+    background-color: #D4C69B ;
+    border-radius: 3px;    
+}
+/* --------------------------------------------Last-Section--------------------------------------- */
+
+.last-section{
+    background-color: #EBECF2;
+    margin-top: 70px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.recent-tasks{
+    float: left;
+    width: 564px;
+    border-bottom: 3px solid #E6E7ED;
+    background-color: #FFFFFF;
+    margin-right: 24px;
+}
+
+.task-row
+{
+    padding: 11px 20px 10px 20px;
+    border-top: 1px solid #E6E7ED;
+}
+.three-dots2    
+{
+    float: right;
+    padding: 19px 30px;
    
-
 }
 
+.align-task-row{
+     padding: 10px;
+     vertical-align: middle;
+     width: 300px;
+     display: inline-block;  
+    }
 
-header .divnew .toolbox .settingicon
-{   
-    position: absolute;
-    height: 21px;
-    width: 20px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/setting.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    right: 61px;
-    top: 10.41px;
-
-}
-header .divnew .toolbox .searchbox
-{   
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background: #384B59 0% 0% no-repeat padding-box;    
-    opacity: 1;
-    right: 0px;
-    top: 0.41px;
-}
-
-header .divnew .searchbox .searchicon
-{   
-    position: absolute;
-    height: 18px;
+.date{
+        margin-left: 84px;
+        max-width: 75px;
+        min-width: 75px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #919599;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+ }
+ .checkbox
+{
+    height: 17px;
     width: 17px;
-    background: transparent url('/home/cuelogic.local/swapnil.rasal/vscode-workspace/final-assignment/html/Ellipse 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    right: 12px;
-    top: 12px;
+    background-color:  #FFFFFF;
+    border: 1px solid #CED4D9 ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
 
+}
+.checked{
+    background-color:  #E1F5E3;
+    border: 1px solid transparent ;
 }
 
 
-section .dashboard
+ .recent-task-clear {
+    margin-right: 0px !important;
+}
+
+.text-color-black{
+    color: #363F45;
+    font-weight: 700;
+    line-height: 55px;
+    vertical-align: middle;
+    padding-left: 30px;
+ }
+
+ .font-quicksand-bold-34px{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    color: #E1E2E9;
+    font-weight: 700;
+}
+
+.lato-regular-13px{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #919599;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style-type: none;
+    text-decoration-style: none;
+    vertical-align: center;
+    text-align: left;
+    }
+
+.task-row-2
 {
-position: relative;
-width: 1152px;
-
-top: 103px;
-left: 24px;
-opacity: 1;
-background-color: yellow;
+    padding:45px 30px 44px 30px;
 }
 
-section .dashboard .rect
-{
-float: left;
-width: 22%;
-
-top: 162px;
-opacity: 1;
-margin-right: 24px;
-margin-block-end: 0px;
-background-color: cyan;
-border: 1px solid black;
+.first-row{
+border-top: 1px solid #E6E7ED;
 }
 
+.last-row{
 
-.clear{
-    clear:both;
+    padding-bottom: 56px;
+}
+
+.selected{
+    background-color: #E1F5E3;
+    color: #4BAE4F;
+}
+
+.outer-bar2 {
+    background-color: #E1E2E6;
+    height: 9px;
+    width: 332px;
+    border-radius: 5px;
+    margin-left: 78.5px;
+}
+
+.inner-bar2 {
+    height: 9px;
+    background-color: #5FCCC1;
+    border-radius: 5px;
+    position: relative;
+    max-width: 100%;
+}
+
+.inner-width-1{
+    width: 43%;
+}
+
+.inner-width-2{
+    width: 58%;
+}
+.inner-width-3{
+    width: 32%;
+}
+
+.float-left {
+    float: left;
+}
+
+.arrow-box {
+    background-color: #5FCCC1;
+    position: absolute;
+    text-align: center;
+    bottom: 17px;
+    right: -12px;
+    border-radius: 5px;
+
+}
+.arrow-box::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid #5FCCC1;
+    border-left: 5px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    left: 33%;
+    top: 92%;
+}
+
+.lato-bold-16px {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    float: left;
+    font-size: 16px;
+    color: #363F45;
+}
+
+.font-size-12px {
+    font-size: 12px;
+    margin: 3px;
+    background-color: #5FCCC1;
+    color: #FFFFFF;
+}
+/* -------------------------------Footer--------------------------------------- */
+
+footer{
+    width: 100%;
+    background-color: #384B59;
+}
+
+.footer-div
+    {
+    width: 1200px;
+    margin: auto;
+    line-height: 44px;
+}
+
+.lato-regular{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    float: right;
+    font-size: 11px;
+    color: #9CAAB4;
+    background-color:  #384B59;
+    padding-right: 26px;    
 }
